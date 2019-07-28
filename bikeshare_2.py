@@ -218,6 +218,7 @@ def main():
         user_stats(df,city)
         raw_data(df)
 
+#get user input if he want to restart the program again
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
